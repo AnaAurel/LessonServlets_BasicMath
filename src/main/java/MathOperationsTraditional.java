@@ -18,13 +18,7 @@ public class MathOperationsTraditional extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) {
 
-//        try {
-//            Context env = (Context) new InitialContext().lookup("java:comp/env");
-//            String docPath = (String) env.lookup("docPath");
-//            System.out.println(docPath);
-//        } catch (NamingException e) {
-//            e.printStackTrace();
-//        }
+
 
         try {
             System.out.println(" enter in servlet traditional");

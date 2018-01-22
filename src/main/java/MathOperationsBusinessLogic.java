@@ -23,4 +23,11 @@ public class MathOperationsBusinessLogic {
         System.out.println("returning value from getResultValue:"+resultValue);
         return resultValue;
     }
+
+    public static void main(String[] args) {
+
+        double result = getResultValue("3", 7,10);
+        System.out.println(result);
+
+    }
 }
